@@ -1,38 +1,39 @@
-# sv
+# Portfolio Personal
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+## About Me
 
-## Creating a project
+Soy desarrollador backend, especializado en crear sistemas robustos, eficientes y bien estructurados. Trabajo con tecnologías como Python, Django y manejo bases de datos como PostgreSQL. Me apasiona diseñar arquitecturas modulares, resolver desafíos complejos en bases de datos y optimizar el rendimiento de las aplicaciones para brindar soluciones escalables y de calidad.
 
-If you're seeing this, you've probably already done this step. Congrats!
+## Skills
 
-```bash
-# create a new project in the current directory
-npx sv create
+- Python
+- Django
+- JavaScript
+- Svelte
+- HTML/CSS
+- PostgreSQL
+- Git
 
-# create a new project in my-app
-npx sv create my-app
-```
+---
 
-## Developing
+## Projects
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+### "Room reservation"
 
-```bash
-npm run dev
+Una API para gestionar reservas, Los usuarios pueden buscar alojamientos por ubicación y número de personas. La API debe permitir crear, modificar y cancelar reservas
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+### Events
 
-## Building
+Este proyecto es una aplicación construida con Django Rest Framework (DRF) que permite gestionar eventos, actividades y registros de asistentes. Proporciona funcionalidades para organizar eventos, asignar conferencistas, programar actividades dentro de los eventos y manejar el proceso de registro de asistentes. La aplicación está diseñada para ser escalable y modular, permitiendo la integración futura de nuevas características según sea necesario.
 
-To create a production version of your app:
+---
 
-```bash
-npm run build
-```
+## Contact
 
-You can preview the production build with `npm run preview`.
+- [LinkedIn](https://www.linkedin.com/in/carjuancara)
 
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+## Social Media
+
+- [GitHub](https://github.com/carjuancara)
+
+- [Youtube](https://www.youtube.com/channel/back-code)
