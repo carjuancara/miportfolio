@@ -1,5 +1,5 @@
 <script>
-	const title = 'Events';
+	const { title } = $props();
 </script>
 
 <section class="event">
