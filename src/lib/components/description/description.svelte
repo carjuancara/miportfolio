@@ -18,9 +18,10 @@
 		border: none;
 		outline: none;
 		resize: none;
+		overflow-x: auto;
 		font-size: 1rem;
 		line-height: 1.5;
 		color: white;
-		background-color: dimgray;
+		background-color: slateblue;
 	}
 </style>
