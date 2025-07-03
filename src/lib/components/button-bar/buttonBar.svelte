@@ -12,7 +12,7 @@
 <style>
 	@media (width <=768px) {
 		.container__nav {
-			background-color: #1e2939;
+			background-color: slateblue;
 			padding: 4px;
 			color: white;
 		}
@@ -27,7 +27,10 @@
 		.item {
 			cursor: pointer;
 			border-radius: 8px;
-			background-color: #155dfc;
+			background-color: white;
+			color: blueviolet;
+			font-size: 1.3rem;
+			font-weight: bold;
 			padding: 8px;
 		}
 	}
