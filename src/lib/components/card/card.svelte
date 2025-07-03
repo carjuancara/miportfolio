@@ -39,7 +39,7 @@
 		.container__image {
 			display: flex;
 			width: 100%;
-			height: 240px;
+			height: 202px;
 			margin-bottom: 8px;
 		}
 		.container__description {

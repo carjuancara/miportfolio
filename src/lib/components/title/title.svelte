@@ -11,7 +11,7 @@
 		display: flex;
 		width: 100%;
 		height: 10%;
-		padding: 4px 0 4px 4px;
+		padding: 8px 0 8px 8px;
 		align-items: center;
 		justify-content: flex-start;
 		color: white;
