@@ -29,7 +29,7 @@
 			align-items: center;
 			padding: 4px;
 			box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-			background-color: #1e2939;
+			background-color: slateblue;
 		}
 		.container__title {
 			margin-bottom: 8px;
@@ -52,7 +52,7 @@
 			display: flex;
 			justify-content: flex-end;
 			width: 100%;
-			margin-bottom: 8px;
+			margin-bottom: 1px;
 		}
 	}
 </style>
