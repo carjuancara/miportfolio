@@ -1,6 +1,6 @@
 <script>
-	const { img } = $props();
-	const image = img[0];
+	const { images } = $props();
+	const image = images[0];
 </script>
 
 <section class="container-image">
