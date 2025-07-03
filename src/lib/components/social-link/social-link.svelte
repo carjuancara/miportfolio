@@ -1,19 +1,5 @@
 <script>
-	//const { socialLink } = $props();
-	const socialLink = [
-		{
-			name: 'GitHub',
-			url: 'https://github.com/carjuancara'
-		},
-		{
-			name: 'LinkedIn',
-			url: 'https://linkedin.com/in/carjuancara'
-		},
-		{
-			name: 'YouTube',
-			url: 'https://www.youtube.com/back-code'
-		}
-	];
+	const { socialLink } = $props();
 </script>
 
 <section class="banner">
@@ -38,7 +24,6 @@
 		justify-content: center;
 		gap: 8px;
 		font-size: 1.3rem;
-		border-radius: 20px;
 		background-color: blueviolet;
 	}
 
