@@ -1,6 +1,5 @@
 <script>
-	import Title from '../title/title.svelte';
-
+	import { Title } from '$lib';
 	const { skills } = $props();
 </script>
 

@@ -1,8 +1,8 @@
 <script>
-	import Title from '$lib/components/title/title.svelte';
-	import ViewImage from '$lib/components/imageViewer/viewImage.svelte';
-	import Description from '$lib/components/description/description.svelte';
-	import ButtonBar from '$lib/components/button-bar/buttonBar.svelte';
+	import { Title } from '$lib';
+	import { ViewImage } from '$lib';
+	import { Description } from '$lib';
+	import { ButtonBar } from '$lib';
 	const { title, images, description, demoUrl, repoUrl } = $props();
 </script>
 
