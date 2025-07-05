@@ -21,7 +21,7 @@
 		overflow-x: auto;
 		font-size: 1rem;
 		line-height: 1.5;
-		color: white;
-		background-color: slateblue;
+		color: var(--font-color-primary);
+		background-color: var(--bg-color-secondary);
 	}
 </style>
