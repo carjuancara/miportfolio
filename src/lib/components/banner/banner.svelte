@@ -7,28 +7,40 @@
 </section>
 
 <style>
-	.banner {
-		padding: 8px;
+	@media (width <= 768px) {
+		.banner {
+			padding: 8px;
 
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		background-color: blueviolet;
-		color: white;
+			display: flex;
+			justify-content: center;
+			align-items: center;
 
-		width: 100%;
-		height: 100%;
+			font-size: 1.6rem;
+			color: var(--font-color-primary);
+			background-color: var(--bg-color-primary);
+
+			width: 100%;
+			height: 100%;
+		}
+
+		.banner__title {
+			text-align: center;
+			font-size: 1.8rem;
+			font-weight: bold;
+		}
 	}
-
-	.banner__title {
-		text-align: center;
-		font-size: 1.5rem;
-		font-weight: bold;
-	}
-
 	@media (width > 768px) {
 		.banner {
-			border-radius: 0;
+			font-size: 2.5rem;
+			padding: 8px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			background-color: var(--bg-color-primary);
+			color: var(--font-color-primary);
+
+			width: 100%;
+			height: 100%;
 		}
 	}
 </style>
