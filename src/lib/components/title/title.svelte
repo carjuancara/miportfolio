@@ -10,12 +10,11 @@
 	.event {
 		display: flex;
 		width: 100%;
-		height: 10%;
 		padding: 8px 0 8px 8px;
 		align-items: center;
 		justify-content: flex-start;
-		color: white;
-		background-color: blueviolet;
+		color: var(--font-color-primary);
+		background-color: var(--bg-color-primary);
 	}
 
 	.event__title {
