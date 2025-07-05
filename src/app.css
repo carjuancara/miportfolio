@@ -1,3 +1,16 @@
 @import 'tailwindcss';
 @plugin '@tailwindcss/forms';
 @plugin '@tailwindcss/typography';
+
+:root {
+	font-family: nunito, sans-serif;
+	--color-primary: blueviolet;
+	--color-secondary: slateblue;
+	--color-tertiary: white;
+	--bg-color-primary: var(--color-primary);
+	--bg-color-secondary: var(--color-secondary);
+	--bg-color-tertiary: var(--color-tertiary);
+	--bg-glogal: var(--color-primary);
+	--font-color-primary: var(--color-tertiary);
+	--font-color-secondary: var(--color-primary);
+}
