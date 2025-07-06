@@ -9,15 +9,13 @@
 <style>
 	@media (width <= 768px) {
 		.banner {
-			padding: 8px;
-
 			display: flex;
 			justify-content: center;
 			align-items: center;
 
 			font-size: 1.6rem;
 			color: var(--font-color-primary);
-			background-color: var(--bg-color-primary);
+			background-color: var(--bg-color-secondary);
 
 			width: 100%;
 			height: 100%;
@@ -27,6 +25,7 @@
 			text-align: center;
 			font-size: 1.8rem;
 			font-weight: bold;
+			border: none;
 		}
 	}
 	@media (width > 768px) {
