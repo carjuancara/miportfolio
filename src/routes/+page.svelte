@@ -124,7 +124,7 @@
 		}
 
 		.clean {
-			background-color: slateblue;
+			background-color: var(--bg-color-secondary);
 		}
 
 		.clean:nth-child(1) {
