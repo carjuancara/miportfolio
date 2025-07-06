@@ -4,9 +4,9 @@
 
 :root {
 	font-family: nunito, sans-serif;
-	--color-primary: blueviolet;
-	--color-secondary: slateblue;
-	--color-tertiary: white;
+	--color-primary: #00272d;
+	--color-secondary: #134647;
+	--color-tertiary: #bfac8b;
 	--bg-color-primary: var(--color-primary);
 	--bg-color-secondary: var(--color-secondary);
 	--bg-color-tertiary: var(--color-tertiary);
