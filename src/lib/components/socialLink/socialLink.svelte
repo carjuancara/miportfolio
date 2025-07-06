@@ -62,12 +62,14 @@
 			display: flex;
 			align-items: center;
 			justify-content: center;
-			gap: 4px;
+			gap: 8px;
 			font-size: 1.3rem;
 			background-color: transparent;
 		}
+
 		.banner__social {
-			place-content: center center;
+			display: flex;
+			text-align: center;
 			padding: 8px;
 			border-radius: 8px;
 			place-items: center;
