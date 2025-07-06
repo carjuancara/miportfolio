@@ -7,19 +7,37 @@
 </section>
 
 <style>
-	.event {
-		display: flex;
-		width: 100%;
-		height: 10%;
-		padding: 8px 0 8px 8px;
-		align-items: center;
-		justify-content: flex-start;
-		color: white;
-		background-color: blueviolet;
-	}
+	@media (width <= 768px) {
+		.event {
+			display: flex;
+			padding: 4px;
+			width: 100%;
+			align-items: center;
+			justify-content: flex-start;
+			color: var(--font-color-primary);
+			background-color: var(--bg-color-primary);
+		}
 
-	.event__title {
-		font-size: 1rem;
-		font-weight: bold;
+		.event__title {
+			font-size: 1rem;
+			font-weight: bold;
+		}
+	}
+	@media (width > 768px) {
+		.event {
+			display: flex;
+			padding: 4px;
+			width: 100%;
+			align-items: center;
+			justify-content: flex-start;
+			color: var(--font-color-primary);
+			background-color: var(--bg-color-primary);
+		}
+
+		.event__title {
+			font-size: 1rem;
+			font-weight: bold;
+			padding: 8px 0;
+		}
 	}
 </style>
