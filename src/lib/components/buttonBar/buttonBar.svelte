@@ -11,18 +11,19 @@
 
 <style>
 	.container__nav {
-		padding: 4px;
 		color: var(--font-color-primary);
 	}
 
 	.container__button {
-		cursor: pointer;
+		padding: 1rem 1rem 1rem 0;
 		border-radius: 8px;
-		gap: 16px;
-		padding-right: 1rem;
+
 		display: flex;
 		justify-content: flex-end;
 		align-items: center;
+		gap: 8px;
+
+		cursor: pointer;
 	}
 
 	.item_container {
