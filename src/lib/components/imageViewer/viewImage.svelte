@@ -1,11 +1,12 @@
 <script>
+	import { base } from '$app/paths';
+
 	const { images } = $props();
 	const image = images[0];
-	import { base } from '$app/paths';
 </script>
 
 <section class="container-image">
-	<img class="img__image" src={base / image} alt={base / image} />
+	<img class="img__image" src={base / image || '#'} alt={base / image} />
 </section>
 
 <style>

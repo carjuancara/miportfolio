@@ -6,7 +6,7 @@ const config = {
 		adapter: adapter({
 			pages: 'build',
 			assets: 'build',
-			fallback: undefined,
+			fallback: 'index.html', // Esto habilita el modo SPA
 			precompress: false,
 			strict: true
 		}),

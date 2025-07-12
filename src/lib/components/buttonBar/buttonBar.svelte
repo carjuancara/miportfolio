@@ -1,12 +1,11 @@
 <script>
 	const { demoUrl, repoUrl } = $props();
-	import { base } from '$app/paths';
 </script>
 
 <nav class="container__nav">
 	<ul class="container__button">
-		<li class="item_container"><a class="item" href={{ base } / demoUrl}>Demo</a></li>
-		<li class="item_container"><a class="item" href={{ base } / repoUrl}>Repo</a></li>
+		<li class="item_container"><a class="item" href={demoUrl || '#'}>Demo</a></li>
+		<li class="item_container"><a class="item" href={repoUrl || '#'}>Repo</a></li>
 	</ul>
 </nav>
 
