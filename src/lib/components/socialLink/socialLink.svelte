@@ -1,12 +1,13 @@
 <script>
 	const { socialLink } = $props();
+	import { base } from '$app/paths';
 </script>
 
 <section class="banner">
 	<ul class="social-link">
 		{#each socialLink as social (social.name)}
 			<li class="container__social">
-				<a class="banner__social" href={social.url}>{social.name}</a>
+				<a class="banner__social" href={base / social.url}>{base / social.name}</a>
 			</li>
 		{/each}
 	</ul>
